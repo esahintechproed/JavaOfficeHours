@@ -23,6 +23,7 @@ public class Question01 {
 		System.out.println("Lutfen bir harf giriniz");
 		char harf = scan.next().toLowerCase().charAt(0);
 
+		
 		int count = 0;
 
 		for (int i = cumle.length() - 1; i >= 0; i--) {
